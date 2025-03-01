@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url(../fonts/CaviarDreams.ttf)
+    format(truetype);
+}
+@font-face {
+    font-family: 'subtitulo';
+    src: url(../fonts/Fragmentcore.otf)
+    format(opentype);
+}
+
+:root {
+    --cor1:  #010626;
+    --cor2:  #022859;
+    --cor3:  #034C8C;
+    --cor4:  #2481A6;
+    --cor5:  #F2CA50;
+
+    --font-padrao:  Arial, Helvetica, sans-serif;
+    --font-titulo:  'titulo', cursive;
+    --font-subtitulo: 'subtitulo', cursive ;
+}
