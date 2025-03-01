@@ -22,3 +22,12 @@
     --font-titulo:  'titulo', cursive;
     --font-subtitulo: 'subtitulo', cursive ;
 }
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
