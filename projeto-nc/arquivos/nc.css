@@ -29,5 +29,14 @@
     padding: 0px;
 }
 
+header {
+    background-color: var(--cor4);
+    text-align: center;
+}
 
+header > h1 {
+    color: var(--cor5);
+    font-family: var(--font-titulo);
+    padding-bottom: 20px;
+}
 
