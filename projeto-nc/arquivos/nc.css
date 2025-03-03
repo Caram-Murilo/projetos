@@ -11,6 +11,8 @@
     format(opentype);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
     --cor1:  #010626;
     --cor2:  #022859;
@@ -21,6 +23,7 @@
     --font-padrao:  Arial, Helvetica, sans-serif;
     --font-titulo:  'titulo', cursive;
     --font-subtitulo: 'subtitulo', cursive ;
+    --font-links:  'Bebas',  Arial, Helvetica, sans-serif;
 }
 
 
@@ -39,4 +42,39 @@ header > h1 {
     font-family: var(--font-titulo);
     padding-bottom: 20px;
 }
+
+nav {
+    background-color: var(--cor4);
+    text-align: justify;
+    padding: 20px;
+}
+
+nav > abbr {
+    text-decoration: none;
+}
+
+nav > abbr > a {
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--font-links);
+    font-size: 25px;
+
+}
+
+nav > abbr > a:hover {
+    background-color: var(--cor3);
+    border-radius: 7px;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+
+nav > abbr > a:active {
+    color: var(--cor1);
+    transition-duration: 0.1s;
+}
+
 
